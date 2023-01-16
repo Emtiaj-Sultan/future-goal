@@ -1,0 +1,181 @@
+@media screen and (max-width:1150px) {
+
+    /* Head  */
+    .header {
+        width: 100%;
+    }
+
+    .overlay {
+        opacity: 0.4;
+    }
+
+    .header-info {
+        width: 100%;
+        left: 0;
+        margin: 200px 0 0;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .header-title {
+        color: rgb(255, 255, 255);
+    }
+
+    .header .description {
+        font-weight: 400;
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    /* my failures  */
+    .my-failures-content {
+        flex-direction: column;
+        width: 100%;
+        padding: 0 30px;
+    }
+
+    .my-failures-content img {
+        width: 60%;
+    }
+
+    /* my plans  */
+    .my-plans {
+        width: 100%;
+        /* margin: 0 auto; */
+    }
+
+
+    .my-plan-container {
+        justify-content: space-around;
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+    }
+
+    /* keep fit  */
+    .keep-fit {
+        width: 100%;
+        background-size: 100% 100%;
+    }
+
+    .keep-fit div {
+        padding: 15px;
+        left: 0;
+        right: 0;
+    }
+
+    /* my hobbies  */
+    .my-hobbies-info {
+        flex-direction: column;
+    }
+
+    .my-hobbies-content {
+        width: 100%;
+    }
+
+    .my-hobbies .description {
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width:576px) {
+
+    /* Head  */
+    .header {
+        width: 100%;
+    }
+
+    .overlay {
+        opacity: 0.4;
+    }
+
+    .header-info {
+        width: 100%;
+        left: 0;
+        margin: 200px 0 0;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .header-title {
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+    }
+
+    .header .description {
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    /* my failures  */
+    .my-failures-content {
+        flex-direction: column;
+        /* width: 100%; */
+        padding: 0 20px;
+    }
+
+    .my-failures-content img {
+        width: 100%;
+    }
+
+    /* my plan  */
+    .my-plans {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .my-plan-container {
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+    }
+
+    .my-plan-item {
+        width: 80%;
+    }
+
+    /* keep fit  */
+    .keep-fit {
+        width: 100%;
+        background-size: 100% 100%;
+    }
+
+    .keep-fit div {
+        padding: 15px;
+        left: 0;
+        right: 0;
+    }
+
+    .keep-fit .title {
+        font-size: 30px;
+    }
+
+    /* my hobbies  */
+    .my-hobby {
+        width: 100%;
+    }
+
+    .my-hobbies-info {
+        flex-direction: column;
+    }
+
+    .my-hobbies-content {
+        width: 100%;
+    }
+
+    .my-hobbies .description {
+        padding: 10px;
+    }
+
+
+    .footer-info {
+        width: 100%;
+        flex-direction: column;
+        padding: 0 20px;
+    }
+
+    .footer-about,
+    .footer-form {
+        width: 100%;
+    }
+}
